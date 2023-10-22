@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -47,14 +48,14 @@ TagManager:
   - name: Water Layer
     uniqueID: 3280195531
     locked: 0
-  - name: Hazard
-    uniqueID: 4280255679
-    locked: 0
   - name: plateform Layer
     uniqueID: 1060659535
     locked: 0
   - name: Climbing Layer
     uniqueID: 401761293
+    locked: 0
+  - name: Hazard
+    uniqueID: 4280255679
     locked: 0
   - name: Enemy
     uniqueID: 386767757

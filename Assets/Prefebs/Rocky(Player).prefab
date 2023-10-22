@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 3658304999723970712}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.317, y: -0.11, z: 0}
+  m_LocalPosition: {x: 0.44, y: -0.08, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -109,7 +109,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1725395049
-  m_SortingLayer: 8
+  m_SortingLayer: 7
   m_SortingOrder: 0
   m_Sprite: {fileID: 1040386075, guid: e4253330d90a414478d75ddc336e9fb4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -222,6 +222,8 @@ MonoBehaviour:
   JumpSpeed: 312
   ClimbSpeed: 8
   die: {x: 20, y: 20}
+  Bullet: {fileID: 0}
+  Gun: {fileID: 0}
 --- !u!61 &5056830890455460545
 BoxCollider2D:
   m_ObjectHideFlags: 0
