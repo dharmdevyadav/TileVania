@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Firebullet : MonoBehaviour
 {
-    [SerializeField] float Speed = 10f;
+    [SerializeField] float Speed = 20f;
     Rigidbody2D bulletbody;
     PlayerController Player;
     float xSpeed;
@@ -28,12 +28,12 @@ public class Firebullet : MonoBehaviour
         {
             Destroy(other.gameObject);
         }
-        Destroy(gameObject);
+        //Destroy(gameObject);
     }
 
-    /*void OnCollisionEnter2D(Collision2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
         Destroy(gameObject);
-    }*/
+    }
 
 }
