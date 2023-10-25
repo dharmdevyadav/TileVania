@@ -156,6 +156,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e867311b9f8f6a545be81f088fca5025, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  SFXCoinSound: {fileID: 8300000, guid: 2d9563a6e8bf9d54fbeca9746c5e24b1, type: 3}
 --- !u!82 &4954721631491019291
 AudioSource:
   m_ObjectHideFlags: 0
