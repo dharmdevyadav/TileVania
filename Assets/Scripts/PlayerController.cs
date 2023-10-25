@@ -105,7 +105,9 @@ public class PlayerController : MonoBehaviour
             isAlive = false;
             animator.SetTrigger("Dying");
             MyRigidBody.velocity = die;
-            //GameObject.Destroy(tag.Player, 2f);
+
+            FindObjectOfType<GameSession>().ProcessPlayerDeath();
+
         }
     }
 
